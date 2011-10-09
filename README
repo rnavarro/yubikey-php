@@ -1,0 +1,24 @@
+Yubikey PHP Class
+
+Version 0.96
+
+Included are two files:
+
+Yubikey.php - The Yubikey class
+
+yubikeytest.php - A sample php script which uses the class.
+
+
+Pretty self explanitory. Open 'yubikeytest.php' and change the
+$apiID and $signatureKey variables to the id and key you got from
+Yubico. If you have no idea what I'm talking about, go to:
+
+https://api.yubico.com/get-api-key/
+
+Enter your email and your Yubikey output and Yubico will supply you
+with an id and key.
+
+The 'Yubikey.php' file has instructions at its head.
+
+Tom Corwine
+yubico@coriwne.org
